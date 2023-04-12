@@ -18,7 +18,8 @@ public class Main {
             day = 0;
             return day;
         } else {
-            for (; dist >= 20; dist -= 20, day++ ) {
+            for (; dist >= 20; dist -= 20) {
+                day++; // Перенес внутрь цикла, т.к ругался из скобок, т.к ругался, мол цикл пустой
             }
         }
 

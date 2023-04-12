@@ -3,7 +3,7 @@ public class Main {
     int deliveryDistance = 95;
     int days = deleveryDays(deliveryDistance);
         if (days != 0) {
-            System.out.printf("Потребуется дней: %d", days);
+            System.out.printf("Для доставки потребуется дней: %d", days);
         } else {
             System.out.println("Доставка не осуществляется");
         }

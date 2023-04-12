@@ -8,7 +8,6 @@ public class Main {
             System.out.println("Доставка не осуществляется");
         }
     }
-
     public static int deleveryDays(int dist) {
         int day = 1;
         if (dist > 80) {

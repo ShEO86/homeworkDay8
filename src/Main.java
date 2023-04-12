@@ -7,9 +7,6 @@ public class Main {
         } else {
             System.out.println("Доставка не осуществляется");
         }
-
-
-
     }
 
     public static int deleveryDays(int dist) {
@@ -22,7 +19,6 @@ public class Main {
                 day++; // Перенес внутрь цикла, т.к ругался из скобок, т.к ругался, мол цикл пустой
             }
         }
-
     return day;
     }
 }
